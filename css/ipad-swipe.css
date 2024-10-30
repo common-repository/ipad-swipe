@@ -1,0 +1,72 @@
+#swp_ajax_busy {
+  position: fixed; 
+  display:none;
+  padding:20px 30px;
+  width:150px;
+  background: #666666;
+  border: 1px solid #2A2A2A;
+  color: #FFFFFF;
+  font-weight: normal;
+  text-shadow: 0 1px 0 #000000;
+  -webkit-border-radius:0.6em 0.6em 0.6em 0.6em;
+  text-align:center;
+  opacity: 0.65;
+}
+#swp_ajax_loader {
+  background-repeat:no-repeat;
+  background-color: transparent;
+  display: block;
+  height: 35px;
+  margin: 0 auto;
+  opacity: 0.9;
+  position: static;
+  width: 35px;
+  text-align:center;
+}
+#swp-post-msg-container {
+  border:thin dotted black;
+  background: #666666; 
+  position:fixed;
+  -webkit-border-radius:0.6em 0.6em 0.6em 0.6em;
+  opacity: 0.65;
+  color: #FFFFFF;
+  width:490px;
+}
+#swp-close-link-container {
+  float: right;
+  height: 50px;
+  margin: 0 0 0 10px;
+  border-left:thin dotted black;
+  text-align:center;
+  padding-top:2px;
+}
+#close-swp-post-msg {
+  text-decoration:none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: bold;
+  padding:0 12px;
+}
+#swp-post-msg-container p {
+  padding-left:3mm;
+  margin:17px 0 15px;
+  font-size:14px;
+  padding-right:4mm;
+  text-align:center;
+}
+#swp_ajax_busy h2 {
+  color: #FFFFFF;
+  line-height: 0;
+  margin: 10px 0 0;
+  font-size:15px;
+  font-weight:bold;
+}
+#swp-close-link-container p {
+  height:100%;
+  margin:0px;
+}
+#center-align-div {
+  height:30%;
+}
